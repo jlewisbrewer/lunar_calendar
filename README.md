@@ -14,9 +14,11 @@ cargo run 12 12 1983
 ```
 ### Output
 ```
-Utc: 440099641
-The moon is 50.52% full.
-It is a first quarter moon`
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target/debug/lunar_calendar 7 15 257`
+The moon is 90.59% full.
+It is a waning gibbous.
+
 ```
 ## To Do
   * Implement calendars to translate the date
