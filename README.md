@@ -10,7 +10,7 @@ Build this project using cargo. To find the phase of the moon for any date, type
 
 ### Input
 ```
-cargo run 12 12 1983
+cargo run 7 15 257
 ```
 ### Output
 ```
