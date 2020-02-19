@@ -13,9 +13,9 @@ fn main() {
     let month : u32 = args[1].parse().unwrap();
     let day : u32 = args[2].parse().unwrap();
 
-    println!{"{:?}", args};
+    //println!{"{:?}", args};
     let dt = Utc.ymd(year, month, day).and_hms(17, 54, 1);
-    println!{"Utc: {:?}", dt.timestamp()};
+    //println!{"Utc: {:?}", dt.timestamp()};
 
     lunar::get_lunar_phase(dt.timestamp());
 }
