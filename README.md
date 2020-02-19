@@ -8,8 +8,12 @@ Build this project using cargo. To find the phase of the moon for any date, type
 
 ## Examples
 
+### Input
 ```
 cargo run 12 12 1983
+```
+### Output
+```
 Utc: 440099641
 The moon is 50.52% full.
 It is a first quarter moon`
